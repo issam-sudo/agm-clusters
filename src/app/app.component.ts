@@ -1,4 +1,4 @@
-import { ClusterOptions, ClusterStyle } from '@agm/js-marker-clusterer/services/google-clusterer-types';
+ import { ClusterOptions, ClusterStyle } from '@agm/js-marker-clusterer/services/google-clusterer-types';
 import { Component, Input, OnInit } from '@angular/core';
 
 

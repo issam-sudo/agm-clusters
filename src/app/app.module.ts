@@ -1,12 +1,14 @@
+ 
+import { AgmMarkerCluster } from '@agm/markerclusterer';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+ 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AgmCoreModule, MarkerManager } from '@agm/core';
+import { AgmJsMarkerClustererModule, ClusterManager } from '@agm/js-marker-clusterer';
  
- import { AgmCoreModule } from '@agm/core/core.module';
-import { AgmJsMarkerClustererModule } from '@agm/js-marker-clusterer/js-marker-clusterer.module';
-
+ 
 
 @NgModule({
   declarations: [
