@@ -1,18 +1,19 @@
- 
-import { AgmMarkerCluster } from '@agm/markerclusterer';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
- 
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AgmCoreModule, MarkerManager } from '@agm/core';
-import { AgmJsMarkerClustererModule, ClusterManager } from '@agm/js-marker-clusterer';
- 
+import { AgmCoreModule  } from '@agm/core';
+import { AgmMarkerClustererModule } from '@agm/markerclusterer';
+import { AgmClustersComponent } from './agm-clusters/agm-clusters.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
  
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AgmClustersComponent
   ],
   imports: [
     BrowserModule,
@@ -23,7 +24,10 @@ import { AgmJsMarkerClustererModule, ClusterManager } from '@agm/js-marker-clust
     }),
  
  
-    AgmJsMarkerClustererModule
+    AgmMarkerClustererModule,
+ 
+ 
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]

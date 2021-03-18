@@ -1,10 +1,1 @@
-<agm-map style="height: 300px" [zoom]="zoom" [latitude]="-31.56391" [longitude]="147.154312">
-    <agm-marker-cluster [calculator]="calculateFunction" [styles]="clusterStyles" [minimumClusterSize]="2" [gridSize]="60" [averageCenter]="true">
-        <agm-marker *ngFor="let item of markers" [latitude]="item.lat" [longitude]="item.lng">
-        </agm-marker>
-        <!-- multiple markers -->
-    </agm-marker-cluster>
-</agm-map>
-
-
 <router-outlet></router-outlet>
