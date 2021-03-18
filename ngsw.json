@@ -1,0 +1,127 @@
+{
+  "configVersion": 1,
+  "timestamp": 1616104542175,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.909621652ec23b7136c3.js",
+        "/manifest.webmanifest",
+        "/polyfills.94daefd414b8355106ab.js",
+        "/runtime.7b63b9fd40098a2e8207.js",
+        "/styles.09e2c710755c8867a460.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/css/aos.css",
+        "/assets/css/bootstrap.min.css",
+        "/assets/css/font-awesome.min.css",
+        "/assets/css/tooplate-gymso-style.css",
+        "/assets/fonts/FontAwesome.otf",
+        "/assets/fonts/Plain-Bold.woff",
+        "/assets/fonts/Plain-Bold.woff2",
+        "/assets/fonts/Plain-Light.woff",
+        "/assets/fonts/Plain-Light.woff2",
+        "/assets/fonts/Plain-Regular.woff",
+        "/assets/fonts/Plain-Regular.woff2",
+        "/assets/fonts/fontawesome-webfont.eot",
+        "/assets/fonts/fontawesome-webfont.svg",
+        "/assets/fonts/fontawesome-webfont.ttf",
+        "/assets/fonts/fontawesome-webfont.woff",
+        "/assets/fonts/fontawesome-webfont.woff2",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/images/map-bg.jpg",
+        "/assets/js/aos.js",
+        "/assets/js/bootstrap.min.js",
+        "/assets/js/custom.js",
+        "/assets/js/jquery.min.js",
+        "/assets/js/smoothscroll.js",
+        "/assets/xsIeP.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/css/aos.css": "0557d37454b67f42f2cb101e57e5070fb1193570",
+    "/assets/css/bootstrap.min.css": "7b0a4cf50155c6f3907b2978fe934698ed83201a",
+    "/assets/css/font-awesome.min.css": "e7e350a6c928018873d249049f58963f798db6ed",
+    "/assets/css/tooplate-gymso-style.css": "f096ca2abb6f313dda7e318764b7d4e85df937df",
+    "/assets/fonts/FontAwesome.otf": "048707bc52ac4b6563aaa383bfe8660a0ddc908c",
+    "/assets/fonts/Plain-Bold.woff": "eb6a73e82132a53a036e12a6dbfe4d2a6f3601aa",
+    "/assets/fonts/Plain-Bold.woff2": "b70feb1af5ea28dd57d5a80007187f617a366ee7",
+    "/assets/fonts/Plain-Light.woff": "f87e3d4634b1efb6f0011e0480bebaf8a4f8d51e",
+    "/assets/fonts/Plain-Light.woff2": "b009ff057855a980225b177e9e4213c1a9600400",
+    "/assets/fonts/Plain-Regular.woff": "f549ffe52a4f5e022554407f4c7ba328224cc476",
+    "/assets/fonts/Plain-Regular.woff2": "ee8bc9b3c45983bef48e559f22866d2f6b84ca1c",
+    "/assets/fonts/fontawesome-webfont.eot": "d980c2ce873dc43af460d4d572d441304499f400",
+    "/assets/fonts/fontawesome-webfont.svg": "98a8aa5cf7d62c2eff5f07ede8d844b874ef06ed",
+    "/assets/fonts/fontawesome-webfont.ttf": "13b1eab65a983c7a73bc7997c479d66943f7c6cb",
+    "/assets/fonts/fontawesome-webfont.woff": "28b782240b3e76db824e12c02754a9731a167527",
+    "/assets/fonts/fontawesome-webfont.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/images/map-bg.jpg": "a537c6b695cb775186a0c7dbf4a569d940124420",
+    "/assets/js/aos.js": "70dbfd38a0f1fc3b1a7d9fadab58786484c34f17",
+    "/assets/js/bootstrap.min.js": "de908c9ed184d74eb525fa7a30449b67fc3a1c14",
+    "/assets/js/custom.js": "af1b2531388c37d39cb89a17cec5c8734c4d7556",
+    "/assets/js/jquery.min.js": "0dc32db4aa9c5f03f3b38c47d883dbd4fed13aae",
+    "/assets/js/smoothscroll.js": "cec66b963de93a331e41d17413fe80ae944cde28",
+    "/assets/xsIeP.png": "4d5d115003389e7ab16a053dbca26ac632e9765c",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "f3f409c8f373472d7b2058bfb475ebbe9360ab6e",
+    "/main.909621652ec23b7136c3.js": "3479e09ea7294f246fc541b2011e3a6743c63b81",
+    "/manifest.webmanifest": "2caf967292fec3ac1bf28b14386d862ca86071cd",
+    "/polyfills.94daefd414b8355106ab.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
+    "/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/styles.09e2c710755c8867a460.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
