@@ -84,7 +84,7 @@ export class AgmClustersComponent implements OnInit {
     }
 
     text = text.replace("{ELEMENTS}", markers.length);
-
+    
 
     return {
       text: text,
